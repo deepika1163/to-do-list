@@ -1,0 +1,25 @@
+/* Custom styles */
+.task-item {
+    transition: all 0.3s ease;
+}
+.task-item:hover {
+    transform: translateX(5px);
+}
+.completed {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+.priority-high {
+    border-left: 4px solid #ef4444;
+}
+.priority-medium {
+    border-left: 4px solid #f59e0b;
+}
+.priority-low {
+    border-left: 4px solid #10b981;
+}
+.edit-input {
+    min-width: 0;
+    width: 100%;
+    flex-grow: 1;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-3xl">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <!-- Header -->
+            <div class="bg-indigo-600 px-6 py-4">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-bold text-white">Advanced To-Do List</h1>
+                    <div class="text-white text-sm">
+                        <span id="task-count">0</span> tasks
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Task Form -->
+            <div class="p-6 border-b">
+                <div class="flex gap-2 mb-2">
+                    <input 
+                        type="text" 
+                        id="task-input" 
+                        placeholder="Enter a new task..." 
+                        class="flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    >
+                    <button 
+                        id="add-btn" 
+                        aria-label="Add new task" 
+                        class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    >
+                        Add
+                    </button>
+                </div>
+                <div class="flex gap-3 items-center mt-3">
+                    <label class="flex items-center space-x-2">
+                        <span class="text-gray-600">Priority:</span>
+                        <select id="priority-select" class="px-2 py-1 border rounded">
+                            <option value="low">Low</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="high">High</option>
+                        </select>
+                    </label>
+                    <label class="flex items-center space-x-2">
+                        <span class="text-gray-600">Due Date:</span>
+                        <input type="date" id="due-date" class="px-2 py-1 border rounded">
+                    </label>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="p-4 border-b bg-gray-50">
+                <div class="flex flex-wrap gap-3">
+                    <button 
+                        id="filter-all" 
+                        class="px-3 py-1 bg-indigo-600 text-white rounded-lg text-sm"
+                    >
+                        All Tasks
+                    </button>
+                    <button 
+                        id="filter-active" 
+                        class="px-3 py-1 bg-white border text-gray-700 rounded-lg text-sm hover:bg-gray-100"
+                    >
+                        Active
+                    </button>
+                    <button 
+                        id="filter-completed" 
+                        class="px-3 py-1 bg-white border text-gray-700 rounded-lg text-sm hover:bg-gray-100"
+                    >
+                        Completed
+                    </button>
+                </div>
+            </div>
+
+            <!-- Task List -->
+            <div class="divide-y">
+                <ul id="task-list" class="divide-y">
+                    <!-- Tasks will be added here dynamically -->
+                </ul>
+                <div id="empty-state" class="p-6 text-center text-gray-500">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/69d3ae90-fd81-4bfb-a7d8-9316b21eeeb7.png" alt="Illustration of empty task list with clipboard and pencil" class="mx-auto mb-4">
+                    <p>Your task list is empty. Add some tasks to get started!</p>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="p-4 bg-gray-50 text-sm text-gray-600 flex justify-between items-center">
+                <span id="completed-count">0 completed</span>
+                <button 
+                    id="clear-completed" 
+                    class="text-red-500 hover:text-red-700 hover:underline"
+                >
+                    Clear completed
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
