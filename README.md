@@ -8,7 +8,7 @@ Tasks are saved using **browser localStorage**, so they stay saved even if you r
 
 ---
 
-## 🚀 Live Demo
+## 🔗 Live Demo
 
 👉 https://deepika1163.github.io/to-do-list/
 
