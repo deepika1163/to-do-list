@@ -46,6 +46,48 @@ Tasks are saved using **browser localStorage**, so they stay saved even if you r
 
 
 
+
+# 📝 To-Do List App
+
+A simple, clean and responsive **Online To-Do List** web app built using **HTML**, **Tailwind CSS**, and **JavaScript**.  
+It lets you manage tasks easily and stores them securely in your browser using **localStorage**.
+
+---
+
+## 🚀 Features
+
+- Add, edit, and delete tasks
+- Mark tasks as complete or incomplete
+- Filter tasks (All, Active, Completed)
+- Add priority levels (Low, Medium, High)
+- Add optional due dates
+- Tasks are saved using **localStorage**
+- Clean pastel UI with Tailwind CSS
+- Fully responsive — works on mobile & desktop
+
+---
+
+## 🛠 Tech Used
+
+- HTML  
+- Tailwind CSS  
+- JavaScript (Vanilla JS)  
+- localStorage  
+- GitHub Pages for hosting
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live App](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)
+
+_(Replace with your actual GitHub Pages link)_
+
+---
+
+**Made with 💙 by [Your Name]**
+
+
 # ✅ Online To-Do List App
 
 A simple and responsive **To-Do List App** built with **HTML**, **Tailwind CSS**, and **JavaScript**.  
