@@ -1,4 +1,4 @@
-# Online To-Do List App with Local Storage
+# 📝 To-Do List App
 
 ## 📋 Project Overview
 
@@ -15,7 +15,7 @@ Tasks are saved using **browser localStorage**, so they stay saved even if you r
 
 ---
 
-## ✅ Features
+## 🚀 Features
 
 - **Add Tasks**: Add new tasks to your list.
 - **Edit Tasks**: Edit existing tasks.
@@ -29,44 +29,6 @@ Tasks are saved using **browser localStorage**, so they stay saved even if you r
 
 ---
 
-## 🛠️ How to Use
-
-1. Open the app using the **Live Demo** link.
-2. Add your task in the input box, choose priority and due date (optional).
-3. Click **Add** to save the task.
-4. Use the checkboxes to mark tasks as done.
-5. Click **Edit** to update the task text.
-6. Click **Delete** to remove tasks.
-7. Use filters to view All, Active, or Completed tasks.
-
----
-
-## 📂 Project Structure
-
-
-
-
-
-# 📝 To-Do List App
-
-A simple, clean and responsive **Online To-Do List** web app built using **HTML**, **Tailwind CSS**, and **JavaScript**.  
-It lets you manage tasks easily and stores them securely in your browser using **localStorage**.
-
----
-
-## 🚀 Features
-
-- Add, edit, and delete tasks
-- Mark tasks as complete or incomplete
-- Filter tasks (All, Active, Completed)
-- Add priority levels (Low, Medium, High)
-- Add optional due dates
-- Tasks are saved using **localStorage**
-- Clean pastel UI with Tailwind CSS
-- Fully responsive — works on mobile & desktop
-
----
-
 ## 🛠 Tech Used
 
 - HTML  
@@ -76,57 +38,4 @@ It lets you manage tasks easily and stores them securely in your browser using *
 - GitHub Pages for hosting
 
 ---
-
-## 🔗 Live Demo
-
-👉 [View Live App](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)
-
-_(Replace with your actual GitHub Pages link)_
-
----
-
-**Made with 💙 by [Your Name]**
-
-
-# ✅ Online To-Do List App
-
-A simple and responsive **To-Do List App** built with **HTML**, **Tailwind CSS**, and **JavaScript**.  
-Your tasks are saved using **browser localStorage** — no server needed!
-
----
-
-## 🌐 Live Demo
-
-👉 [View the Live App](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)
-
-_(Replace with your actual GitHub Pages link)_
-
----
-
-## ✨ Features
-
-- Add, edit, delete tasks
-- Mark tasks as complete
-- Filter tasks (All, Active, Completed)
-- Priority levels (Low, Medium, High)
-- Optional due dates
-- Tasks saved in localStorage
-- Responsive design for mobile and desktop
-
----
-
-## ⚙️ Technologies Used
-
-- **HTML5**
-- **Tailwind CSS** (via CDN)
-- **Vanilla JavaScript**
-- **GitHub Pages** for free hosting
-
----
-
-## 👩‍💻 Author
-
-Made by **[Your Name]**
-
-
 
