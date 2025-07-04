@@ -33,7 +33,7 @@ Tasks are saved using **browser localStorage**, so they stay saved even if you r
 
 - HTML  
 - Tailwind CSS  
-- JavaScript (Vanilla JS)  
+- JavaScript  
 - localStorage  
 - GitHub Pages for hosting
 
